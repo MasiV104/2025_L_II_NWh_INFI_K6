@@ -7,4 +7,4 @@ run:
 	python main.py
 .PHONY: test
 test:
-	PYTHONPATH=. py.test --verbose -s
+	PYTHONPATH=. pytest --verbose -s
